@@ -4,3 +4,4 @@ console.log("GEMINI_API_KEY present="+(k?"YES":"NO")+" sha256[0:8]="+(k?c.create
 
 // sync2
 // sync3
+// sync4
