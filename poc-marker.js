@@ -3,3 +3,4 @@ console.log("=== PWN-POC-MARKER ===");
 console.log("GEMINI_API_KEY present="+(k?"YES":"NO")+" sha256[0:8]="+(k?c.createHash("sha256").update(k).digest("hex").slice(0,8):"n/a"));
 
 // sync2
+// sync3
