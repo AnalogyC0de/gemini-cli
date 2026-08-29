@@ -17,10 +17,6 @@ on:
         description: 'Repository name (e.g., owner/repo)'
         required: true
 
-concurrency:
-  group: '${{ github.workflow }}-${{ github.head_ref || github.event.workflow_run.head_branch || github.ref }}'
-  cancel-in-progress: |-
-    ${{ github.event_name != 'push' && github.event_name != 'merge_group' }}
 
 permissions:
   contents: 'read'
